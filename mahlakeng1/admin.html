@@ -1,0 +1,50 @@
+ <?php include ('server.php');?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pei 's Online Banking</title>
+	<link rel = "stylesheet" type = "text/css" href = "index.css">
+</head>
+<body bgcolor="green">
+	<div class = "header">
+		<h2><center>Admin Registration</center></h2>
+	</div>
+	
+	<div id="section">
+	
+	<form method = "post" action = "registration.php">
+		<?php include ('error.php');?>
+		<div class = "input-group">
+			<label>Username</label>
+			<input type = "text" name = "Username">
+		</div>
+		
+			<br>
+		<div class = "input-group">
+			<label>Password</label>
+			<input type = "text" name = "Username">
+		</div>
+			<br>
+		<div class = "input-group">
+			<label>Confirm Password</label>
+			<input type = "text" name = "Username">
+		</div>
+		
+			<br>
+		<div class = "input-group">
+			<label>Picture</label>
+			<input type = "file" name = "Username">
+		</div>
+		
+			<br>
+		<div>
+		<button type = "Submit" name = "Register" class "button">Register</button>
+		</div>
+		
+	</form>
+	</div>
+
+
+	
+</body>
+</html>

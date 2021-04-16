@@ -1,0 +1,232 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header,section,footer,aside,nav,article,hgroup
+{
+	display:block;
+}
+
+#header{
+	background-color:black;
+	height:70px;
+	font-size:30px;
+	color:white;
+
+
+}
+
+#top_manu li{
+	float: right;
+	display: inline-block;
+	padding: 20px;
+	
+	
+}
+#top_manu{
+		border: 5px solid blue;
+		height: 60px;
+		background-color: white;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-family: Cambria, "Hoefler Text";
+	transition: all 0.4s ease-in;
+}
+
+ul li a:hover{
+	color: white;
+	background-color: blue;
+	border: 3px solid black;		
+}
+
+header .current a{
+	color: white;
+	background-color: blue;
+	border: 3px solid black;
+}
+
+
+#section{
+	text-align:center;
+	background-color:white;
+	border:5px solid blue;
+	width:70%;
+	padding:20px;
+	margin-top:50px;
+	margin-left:25%;
+	height:600px;
+}
+
+#section1{
+	text-align:center;
+	background-color:white;
+	border:5px solid blue;
+	width:70%;
+	padding:20px;
+	margin-top:50px;
+	margin-left:25%;
+	height:400px;
+}
+#section2{
+	text-align:center;
+	background-color:white;
+	border:5px solid blue;
+	width:50%;
+	padding:20px;
+	margin-top:80px;
+	margin-left:25%;
+	height:400px;
+}
+#section3{
+	text-align:center;
+	background-color:white;
+	border:5px solid blue;
+	width:50%;
+	padding:20px;
+	margin-top:80px;
+	margin-left:25%;
+	height:700px;
+}
+
+
+#down{
+	width:1070px;
+	padding:20px;
+	margin:100px;
+	height:350px;
+	background-image: url('lebo11.jpg');
+	border:2px solid blue;
+	
+}
+#down, a button:hover{
+	color: white;
+	background-color: blue;
+	border: 3px solid black;
+	
+}
+#search{
+	float:right;
+}
+#table{
+	padding:70px;
+	
+}
+
+#table1{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#table1, th td{
+	
+	border-bottom: 1px solid black;
+}
+
+#table1, tr:nth-child(even){
+	background-color: #82B888;
+}
+
+#table1, th{
+	background-color: blue;
+	color: white;
+	text-align: left;
+}
+
+.details{
+	float: left;
+	text-align: left;
+}
+
+#butt{
+	font-size:20px;
+}
+#button3{
+	margin:50px;
+	Width:250px;
+	height:250px;
+	font-size:40px;
+	font-style:bold;
+	border:2px solid blue;
+}
+#button4{
+	margin:50px;
+	Width:250px;
+	height:250px;
+	font-size:40px;
+	font-style:bold;
+	border:2px solid blue;
+}
+#button5{
+	margin:50px;
+	Width:250px;
+	height:250px;
+	font-size:40px;
+	font-style:bold;
+	border:2px solid blue;
+}
+#button1{
+	padding:20px;
+	margin:20px;
+	Width:250px;
+	height:250px;
+	float:right;
+	font-size:40px;
+	font-style:bold;
+	margin-right:55px;
+	margin-top:32px;
+	border:2px solid blue;
+}
+#button2{
+	
+	Width:250px;
+	height:250px;
+	font-size:40px;
+	font-style:bold;
+	border:2px solid blue;
+}
+#form{
+	background: blue;
+	font-size:40px;
+	margin:20px;
+	padding:20px;
+}
+#form1{
+	font-size:17px;
+	margin:20px;
+	padding:20px;
+}
+h2,button{
+	font-size:50px;
+	color:black;
+}
+#secti{
+	background-image: url('lebo11.jpg');
+	margin-top: 100px;
+	padding: 20px;
+	width: 95%;
+	height: 70%;
+}
+
+#secti span{
+	color: white;
+}
+.main{
+	padding: 20px;
+}
+
+#the_footer{
+	padding: 40px;
+	background: gray;
+	border: 10px solid black;
+	margin-top: 5%;
+}
+form a{
+	text-decoration: none;
+}
+
