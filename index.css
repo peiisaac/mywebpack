@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header,section,footer,aside,nav,article,hgroup
+{
+	display:block;
+}
+
+#header{
+	background-image: url('dam.jpg');
+	height:70px;
+	font-size:20px;
+	color: black;
+
+
+}
+
+#top_manu li{
+	float: right;
+	display: inline-block;
+	padding: 10px;
+	
+	
+}
+#top_manu{
+		height: 40px;
+		background-color: gray;
+	
+}
+#seele{
+	 margin-top: -4%;
+	 width: 80%;
+	 height: 90%;
+	 margin-left: 0%;
+}
+
+ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-family: Cambria, "Hoefler Text";
+	transition: all 0.4s ease-in;
+}
+
+ul li a:hover{
+	color: white;
+	background-color: red;
+			
+}
+
+header .current a{
+	color: red;
+	
+	
+}
+
+#section{
+	opacity: 300%;
+	background-image: url('water.jpg');
+	margin-top: 16px;
+	padding: 20px;
+	width: 96%;
+	height: 70%;
+}
+
+#sectio{
+	opacity: 0.5px;
+	background-image: url('valey.jpg');
+	margin-top: 16px;
+	padding: 20px;
+	width: 96%;
+	height: 70%;
+}
+
+#secti{
+	opacity: 300%;
+	background-image: url('dam.jpg');
+	margin-top: 35px;
+	padding: 20px;
+	width: 96%;
+	height: 70%;
+}
+
+#sect{
+	opacity: 0.5px;
+	background-image: url('pool.jpg');
+	margin-top: 16px;
+	padding: 20px;
+	width: 1035px;
+	height: 380px;
+}
+
+#the_footer{
+	padding: 20px;
+	background: gray;
+	border: 5px solid black;
+	margin-top: 5%;
+}
+#footer{
+	padding: 20px;
+	background: gray;
+	border: 5px solid black;
+	margin-top: 5%;
+	}
+
+	

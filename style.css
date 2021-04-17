@@ -1,0 +1,19 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#top{
+	padding: 20px;
+	background: green;
+	border:2px solid blue;
+}
+#main{
+	text-align:center;
+	background-color:gray;
+	border:2px solid blue;
+	width:40%;
+	padding:20px;
+	margin-top:50px;
+	margin-left:15%;
+	height:250px;
+}
